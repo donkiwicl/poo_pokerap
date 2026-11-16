@@ -1,0 +1,105 @@
+/* Estilos de Pokerap. Los colores se definen una vez y se reutilizan. */
+.root {
+    -color-rojo: #d6352b;
+    -color-tinta: #23262f;
+    -color-borde: #d9dce3;
+    -fx-font-size: 13px;
+    -fx-background-color: #f5f6f8;
+}
+
+.encabezado {
+    -fx-background-color: -color-tinta;
+    -fx-padding: 14 16 14 16;
+    -fx-border-color: -color-rojo;
+    -fx-border-width: 0 0 4 0;
+}
+
+.titulo {
+    -fx-text-fill: white;
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+}
+
+.subtitulo {
+    -fx-text-fill: #b9bdc9;
+}
+
+.motor {
+    -fx-text-fill: white;
+    -fx-background-color: #3a3f4d;
+    -fx-background-radius: 10;
+    -fx-padding: 3 10 3 10;
+}
+
+.barra {
+    -fx-padding: 12;
+}
+
+.button {
+    -fx-background-color: white;
+    -fx-border-color: -color-borde;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 6 12 6 12;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #eceef2;
+}
+
+.button.primario {
+    -fx-background-color: -color-rojo;
+    -fx-border-color: -color-rojo;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.button.primario:hover {
+    -fx-background-color: #b92a21;
+}
+
+.table-view {
+    -fx-border-color: -color-borde;
+}
+
+.table-view .column-header .label {
+    -fx-font-weight: bold;
+}
+
+.numerica {
+    -fx-alignment: CENTER-RIGHT;
+}
+
+.etiqueta-tipo {
+    -fx-text-fill: white;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 9;
+    -fx-padding: 2 9 2 9;
+}
+
+.pie {
+    -fx-padding: 8 12 8 12;
+}
+
+.estado {
+    -fx-font-weight: bold;
+}
+
+.mensaje {
+    -fx-text-fill: #5a6070;
+}
+
+.formulario {
+    -fx-padding: 18;
+}
+
+.titulo-formulario {
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+}
+
+.error {
+    -fx-text-fill: -color-rojo;
+}
